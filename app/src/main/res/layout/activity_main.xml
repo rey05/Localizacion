@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    tools:context=".MainActivity">
+
+    <!--Declaramos los atributos que se utilizaran en la vista-->
+
+    <TextView
+        android:id="@+id/LblPosicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/posicion_actual"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/LblPosLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#aaaaaa"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LblPosLongitud"
+        android:layout_marginBottom="5dp"
+        android:background="#aaaaaa"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LblPosPrecision"
+        android:layout_marginBottom="5dp"
+        android:background="#aaaaaa"
+        android:textColor="#000000"/>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnActualizar"
+        android:text="@string/Activar"
+        android:layout_weight="1"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnDesactivar"
+        android:text="@string/Desactivar"
+        android:layout_weight="1"
+        android:textColor="#000000"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LblEst"
+        android:text="@string/estado_proveedor"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LblEstado"
+        android:background="#aaaaaa"
+        android:textColor="#000000"/>
+
+</LinearLayout>
